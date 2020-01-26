@@ -5,6 +5,3 @@ function p {
 function h {
     history | grep "$1"
 }
-
-alias t='tmux'
-alias ta='tmux attach'
