@@ -1,6 +1,6 @@
 #!/bin/bash
 set -a -e
 
-CONFIG_DIR=$(dirname "$0")
+CONFIG_DIR=$(dirname "$0")/config
 
-source "${CONFIG_DIR}/.config/git.sh"
+source "${CONFIG_DIR}/git.sh"
