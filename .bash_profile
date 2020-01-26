@@ -1,5 +1,7 @@
 #!/bin/bash
-CONFIG_DIR=$(dirname "$0")/config
+CONFIG_DIR=$HOME/config
+
+echo "Sourcing dotfile configs from $CONFIG_DIR"
 
 source "${CONFIG_DIR}/os.sh"
 source "${CONFIG_DIR}/git.sh"
