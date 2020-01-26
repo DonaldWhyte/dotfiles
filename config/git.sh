@@ -14,3 +14,7 @@ alias gpt='git push origin --tags'
 alias gptu='git push upstream --tags'
 alias gmo='git fetch --all -p && git checkout master && git merge --ff origin/master'
 alias gmu='git fetch --all -p && git checkout master && git merge --ff upstream/master && gph'
+
+# Use Homebrew installed git over Mac OS X's git. This avoids having to install
+# XCode.
+export PATH="/usr/local/opt/git/bin/:${PATH}"
